@@ -6,7 +6,7 @@ An enterprise AI agent can fail when a tool adds a required parameter, changes i
 
 ## Assembly status
 
-Parts B (LIU ZHEYUAN), E (LIN GENXIN) and F (PAN JUNKUN) are included in this integration. Parts A, C and D remain pending. The agent execution code, frozen experiment configuration, complete metrics and corrected raw evidence will arrive with those modules; related links become available after their imports. The reports and dated receipts describe the prepared experiment package and do not certify that this partial checkout is runnable.
+All six parts (A–F) are integrated into the shared repository structure. The 247 tracked project files include the agent execution code, tool-knowledge adaptation, frozen experiment configuration, metrics, corrected raw evidence, case reviews and final report. Verification on 30 October 2026 confirmed that all six submission payloads are present, 41 offline tests pass and 101 internal documentation links resolve. Running new model experiments requires the dependencies, benchmark sources and local model weights described in the reproduction guide.
 
 ## Reports and results
 

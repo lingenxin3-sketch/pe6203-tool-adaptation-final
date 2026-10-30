@@ -13,4 +13,4 @@ Corrected-R2 SHA-256: `07423cd3d570e595963c466d315c9a6d5f7c3de334f410450f62ee56d
 
 [All checksums](../artifacts/evidence/SHA256SUMS.txt) · [Selection and provenance](../artifacts/evidence/releases.json) · [Current results](additional-experiments/FINAL_RESULTS.md).
 
-Local verification is complete. Repository upload and remote verification have not yet been performed for this corrected archive. Existing published historical archives were not replaced. The original JSON serialization exception remains disclosed in the report.
+The corrected archive is uploaded to this repository. Verification of a fresh GitHub checkout on 30 October 2026 confirmed its SHA-256 checksum, all 1199 manifest entries and ZIP CRCs, and the presence of 162 scored episodes. These checks validate the uploaded evidence; they do not constitute a new model experiment. Existing published historical archives were not replaced. The original JSON serialization exception remains disclosed in the report.

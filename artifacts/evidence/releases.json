@@ -78,7 +78,7 @@
     "execution_exceptions": 1,
     "uncommitted_attempt_restarts": 1,
     "repository_path": "artifacts/evidence/final-r2-evidence.zip",
-    "publication_status": "Prepared locally for member upload; not yet pushed."
+    "publication_status": "Uploaded to the final repository; checksum, manifest entries, ZIP CRCs and 162 scored episodes verified from a fresh GitHub checkout on 2026-10-30."
   },
   "historical_mirror_repository": "https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation"
 }
