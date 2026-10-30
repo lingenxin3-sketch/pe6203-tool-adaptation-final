@@ -1,0 +1,256 @@
+{
+  "name": "final-r2",
+  "collected_at": "2026-10-30T16:49:40+08:00",
+  "status": {
+    "name": "final-r2",
+    "expected": 162,
+    "found": 162,
+    "scored": 162,
+    "failures": 1,
+    "missing": 0,
+    "issues": [],
+    "status_counts": {
+      "evaluated": 162
+    },
+    "complete": true
+  },
+  "strategies": [
+    {
+      "strategy": "no_update",
+      "ecs": 5.285305127832222,
+      "stages": {
+        "original": {
+          "n": 18,
+          "tf": 7.166666666666667,
+          "pe": 7.388888888888889
+        },
+        "iter3": {
+          "n": 18,
+          "tf": 5.611111111111111,
+          "pe": 7.055555555555555
+        },
+        "iter5": {
+          "n": 18,
+          "tf": 7.777777777777778,
+          "pe": 7.722222222222222
+        }
+      },
+      "cohorts": [
+        {
+          "version": "iter3",
+          "cohort": "changed",
+          "n": 9,
+          "tf": 7.222222222222222,
+          "delta_own_early": -0.4444444444444444,
+          "delta_same_version_no_update": 0.0
+        },
+        {
+          "version": "iter3",
+          "cohort": "unaffected",
+          "n": 9,
+          "tf": 4.0,
+          "delta_own_early": -2.6666666666666665,
+          "delta_same_version_no_update": 0.0
+        },
+        {
+          "version": "iter5",
+          "cohort": "changed",
+          "n": 10,
+          "tf": 8.2,
+          "delta_own_early": 0.3,
+          "delta_same_version_no_update": 0.0
+        },
+        {
+          "version": "iter5",
+          "cohort": "unaffected",
+          "n": 8,
+          "tf": 7.25,
+          "delta_own_early": 1.0,
+          "delta_same_version_no_update": 0.0
+        }
+      ],
+      "costs": {
+        "update": {
+          "calls": 0,
+          "tokens": 0,
+          "request_seconds": 0,
+          "api_usd": 0
+        },
+        "agent": {
+          "calls": 434,
+          "tokens": 3139878,
+          "request_seconds": 4613.736349100005,
+          "api_usd": 0.0
+        },
+        "judge": {
+          "calls": 54,
+          "tokens": 419083,
+          "request_seconds": 907.6614735999992,
+          "api_usd": 0.0
+        }
+      }
+    },
+    {
+      "strategy": "full_rewrite",
+      "ecs": 5.483517794243001,
+      "stages": {
+        "original": {
+          "n": 18,
+          "tf": 6.444444444444445,
+          "pe": 6.833333333333333
+        },
+        "iter3": {
+          "n": 18,
+          "tf": 6.333333333333333,
+          "pe": 6.944444444444445
+        },
+        "iter5": {
+          "n": 18,
+          "tf": 7.944444444444445,
+          "pe": 8.555555555555555
+        }
+      },
+      "cohorts": [
+        {
+          "version": "iter3",
+          "cohort": "changed",
+          "n": 9,
+          "tf": 6.0,
+          "delta_own_early": -1.2222222222222223,
+          "delta_same_version_no_update": -1.2222222222222223
+        },
+        {
+          "version": "iter3",
+          "cohort": "unaffected",
+          "n": 9,
+          "tf": 6.666666666666667,
+          "delta_own_early": 1.0,
+          "delta_same_version_no_update": 2.6666666666666665
+        },
+        {
+          "version": "iter5",
+          "cohort": "changed",
+          "n": 10,
+          "tf": 8.4,
+          "delta_own_early": 0.9,
+          "delta_same_version_no_update": 0.2
+        },
+        {
+          "version": "iter5",
+          "cohort": "unaffected",
+          "n": 8,
+          "tf": 7.375,
+          "delta_own_early": 2.25,
+          "delta_same_version_no_update": 0.125
+        }
+      ],
+      "costs": {
+        "update": {
+          "calls": 36,
+          "tokens": 104472,
+          "request_seconds": 272.76106299999947,
+          "api_usd": 0.0
+        },
+        "agent": {
+          "calls": 410,
+          "tokens": 2861030,
+          "request_seconds": 3657.5631449999837,
+          "api_usd": 0.0
+        },
+        "judge": {
+          "calls": 54,
+          "tokens": 414578,
+          "request_seconds": 926.1803889000021,
+          "api_usd": 0.0
+        }
+      }
+    },
+    {
+      "strategy": "selective_patch",
+      "ecs": 5.254833837860465,
+      "stages": {
+        "original": {
+          "n": 18,
+          "tf": 7.0,
+          "pe": 8.055555555555555
+        },
+        "iter3": {
+          "n": 18,
+          "tf": 6.777777777777778,
+          "pe": 6.944444444444445
+        },
+        "iter5": {
+          "n": 18,
+          "tf": 6.166666666666667,
+          "pe": 6.944444444444445
+        }
+      },
+      "cohorts": [
+        {
+          "version": "iter3",
+          "cohort": "changed",
+          "n": 9,
+          "tf": 6.444444444444445,
+          "delta_own_early": -0.2222222222222222,
+          "delta_same_version_no_update": -0.7777777777777778
+        },
+        {
+          "version": "iter3",
+          "cohort": "unaffected",
+          "n": 9,
+          "tf": 7.111111111111111,
+          "delta_own_early": -0.2222222222222222,
+          "delta_same_version_no_update": 3.111111111111111
+        },
+        {
+          "version": "iter5",
+          "cohort": "changed",
+          "n": 10,
+          "tf": 6.7,
+          "delta_own_early": -0.3,
+          "delta_same_version_no_update": -1.5
+        },
+        {
+          "version": "iter5",
+          "cohort": "unaffected",
+          "n": 8,
+          "tf": 5.5,
+          "delta_own_early": -1.5,
+          "delta_same_version_no_update": -1.75
+        }
+      ],
+      "costs": {
+        "update": {
+          "calls": 19,
+          "tokens": 36449,
+          "request_seconds": 100.98774849999859,
+          "api_usd": 0.0
+        },
+        "agent": {
+          "calls": 422,
+          "tokens": 3116285,
+          "request_seconds": 3493.9072123000096,
+          "api_usd": 0.0
+        },
+        "judge": {
+          "calls": 54,
+          "tokens": 403499,
+          "request_seconds": 889.9863553999894,
+          "api_usd": 0.0
+        }
+      }
+    }
+  ],
+  "source_manifest_sha256": "579c60853c83400a015b35ac6ba68fbe97a0f1ebba1427403ace27ffd8381cb2",
+  "infrastructure_interruption": {
+    "checked_at": "2026-10-30T16:49:44+08:00",
+    "passed": true,
+    "preserved_completed_records": 156,
+    "completed_episodes_retried": 0,
+    "uncommitted_episode_restarted": 1,
+    "partial_returned_calls": 7,
+    "partial_recorded_tokens": 75652,
+    "partial_request_seconds": 295.61425659999986,
+    "cost_scope": "Additional interrupted-attempt overhead; excluded from completed-grid totals; unreturned usage unknown."
+  }
+}

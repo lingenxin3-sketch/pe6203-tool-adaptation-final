@@ -1,0 +1,1010 @@
+{
+  "collected_at": "2026-10-30T16:49:44+08:00",
+  "rounds": [
+    {
+      "name": "final-v1",
+      "collected_at": "2026-10-30T16:49:42+08:00",
+      "status": {
+        "name": "final-v1",
+        "expected": 162,
+        "found": 162,
+        "scored": 162,
+        "failures": 4,
+        "missing": 0,
+        "issues": [],
+        "status_counts": {
+          "evaluated": 162
+        },
+        "complete": true
+      },
+      "strategies": [
+        {
+          "strategy": "no_update",
+          "ecs": 6.280354732664724,
+          "stages": {
+            "original": {
+              "n": 18,
+              "tf": 6.833333333333333,
+              "pe": 6.555555555555555
+            },
+            "iter3": {
+              "n": 18,
+              "tf": 7.277777777777778,
+              "pe": 7.333333333333333
+            },
+            "iter5": {
+              "n": 18,
+              "tf": 7.444444444444445,
+              "pe": 7.888888888888889
+            }
+          },
+          "cohorts": [
+            {
+              "version": "iter3",
+              "cohort": "changed",
+              "n": 9,
+              "tf": 6.888888888888889,
+              "delta_own_early": 0.0,
+              "delta_same_version_no_update": 0.0
+            },
+            {
+              "version": "iter3",
+              "cohort": "unaffected",
+              "n": 9,
+              "tf": 7.666666666666667,
+              "delta_own_early": 0.8888888888888888,
+              "delta_same_version_no_update": 0.0
+            },
+            {
+              "version": "iter5",
+              "cohort": "changed",
+              "n": 10,
+              "tf": 7.5,
+              "delta_own_early": 0.3,
+              "delta_same_version_no_update": 0.0
+            },
+            {
+              "version": "iter5",
+              "cohort": "unaffected",
+              "n": 8,
+              "tf": 7.375,
+              "delta_own_early": 1.0,
+              "delta_same_version_no_update": 0.0
+            }
+          ],
+          "costs": {
+            "update": {
+              "calls": 0,
+              "tokens": 0,
+              "request_seconds": 0,
+              "api_usd": 0
+            },
+            "agent": {
+              "calls": 426,
+              "tokens": 3007538,
+              "request_seconds": 27204.198834699993,
+              "api_usd": 0.0
+            },
+            "judge": {
+              "calls": 54,
+              "tokens": 406669,
+              "request_seconds": 1673.409318500002,
+              "api_usd": 0.0
+            }
+          }
+        },
+        {
+          "strategy": "full_rewrite",
+          "ecs": 5.2390285754310435,
+          "stages": {
+            "original": {
+              "n": 18,
+              "tf": 6.277777777777778,
+              "pe": 7.5
+            },
+            "iter3": {
+              "n": 18,
+              "tf": 7.055555555555555,
+              "pe": 7.833333333333333
+            },
+            "iter5": {
+              "n": 18,
+              "tf": 6.722222222222222,
+              "pe": 7.166666666666667
+            }
+          },
+          "cohorts": [
+            {
+              "version": "iter3",
+              "cohort": "changed",
+              "n": 9,
+              "tf": 8.444444444444445,
+              "delta_own_early": 1.6666666666666667,
+              "delta_same_version_no_update": 1.5555555555555556
+            },
+            {
+              "version": "iter3",
+              "cohort": "unaffected",
+              "n": 9,
+              "tf": 5.666666666666667,
+              "delta_own_early": -0.1111111111111111,
+              "delta_same_version_no_update": -2.0
+            },
+            {
+              "version": "iter5",
+              "cohort": "changed",
+              "n": 10,
+              "tf": 7.7,
+              "delta_own_early": 0.6,
+              "delta_same_version_no_update": 0.2
+            },
+            {
+              "version": "iter5",
+              "cohort": "unaffected",
+              "n": 8,
+              "tf": 5.5,
+              "delta_own_early": 0.25,
+              "delta_same_version_no_update": -1.875
+            }
+          ],
+          "costs": {
+            "update": {
+              "calls": 36,
+              "tokens": 104472,
+              "request_seconds": 359.31545590001497,
+              "api_usd": 0.0
+            },
+            "agent": {
+              "calls": 403,
+              "tokens": 2682307,
+              "request_seconds": 11202.203139100002,
+              "api_usd": 0.0
+            },
+            "judge": {
+              "calls": 54,
+              "tokens": 397788,
+              "request_seconds": 3141.773278800014,
+              "api_usd": 0.0
+            }
+          }
+        },
+        {
+          "strategy": "selective_patch",
+          "ecs": 6.3324913242890934,
+          "stages": {
+            "original": {
+              "n": 18,
+              "tf": 7.111111111111111,
+              "pe": 7.333333333333333
+            },
+            "iter3": {
+              "n": 18,
+              "tf": 7.611111111111111,
+              "pe": 7.611111111111111
+            },
+            "iter5": {
+              "n": 18,
+              "tf": 7.166666666666667,
+              "pe": 7.388888888888889
+            }
+          },
+          "cohorts": [
+            {
+              "version": "iter3",
+              "cohort": "changed",
+              "n": 9,
+              "tf": 7.888888888888889,
+              "delta_own_early": 1.2222222222222223,
+              "delta_same_version_no_update": 1.0
+            },
+            {
+              "version": "iter3",
+              "cohort": "unaffected",
+              "n": 9,
+              "tf": 7.333333333333333,
+              "delta_own_early": -0.2222222222222222,
+              "delta_same_version_no_update": -0.3333333333333333
+            },
+            {
+              "version": "iter5",
+              "cohort": "changed",
+              "n": 10,
+              "tf": 7.3,
+              "delta_own_early": 0.7,
+              "delta_same_version_no_update": -0.2
+            },
+            {
+              "version": "iter5",
+              "cohort": "unaffected",
+              "n": 8,
+              "tf": 7.0,
+              "delta_own_early": -0.75,
+              "delta_same_version_no_update": -0.375
+            }
+          ],
+          "costs": {
+            "update": {
+              "calls": 19,
+              "tokens": 36449,
+              "request_seconds": 123.08316359999753,
+              "api_usd": 0.0
+            },
+            "agent": {
+              "calls": 405,
+              "tokens": 2985921,
+              "request_seconds": 5773.457126300022,
+              "api_usd": 0.0
+            },
+            "judge": {
+              "calls": 54,
+              "tokens": 408974,
+              "request_seconds": 4177.24726740002,
+              "api_usd": 0.0
+            }
+          }
+        }
+      ],
+      "source_manifest_sha256": "579c60853c83400a015b35ac6ba68fbe97a0f1ebba1427403ace27ffd8381cb2"
+    },
+    {
+      "name": "final-r2",
+      "collected_at": "2026-10-30T16:49:43+08:00",
+      "status": {
+        "name": "final-r2",
+        "expected": 162,
+        "found": 162,
+        "scored": 162,
+        "failures": 1,
+        "missing": 0,
+        "issues": [],
+        "status_counts": {
+          "evaluated": 162
+        },
+        "complete": true
+      },
+      "strategies": [
+        {
+          "strategy": "no_update",
+          "ecs": 5.285305127832222,
+          "stages": {
+            "original": {
+              "n": 18,
+              "tf": 7.166666666666667,
+              "pe": 7.388888888888889
+            },
+            "iter3": {
+              "n": 18,
+              "tf": 5.611111111111111,
+              "pe": 7.055555555555555
+            },
+            "iter5": {
+              "n": 18,
+              "tf": 7.777777777777778,
+              "pe": 7.722222222222222
+            }
+          },
+          "cohorts": [
+            {
+              "version": "iter3",
+              "cohort": "changed",
+              "n": 9,
+              "tf": 7.222222222222222,
+              "delta_own_early": -0.4444444444444444,
+              "delta_same_version_no_update": 0.0
+            },
+            {
+              "version": "iter3",
+              "cohort": "unaffected",
+              "n": 9,
+              "tf": 4.0,
+              "delta_own_early": -2.6666666666666665,
+              "delta_same_version_no_update": 0.0
+            },
+            {
+              "version": "iter5",
+              "cohort": "changed",
+              "n": 10,
+              "tf": 8.2,
+              "delta_own_early": 0.3,
+              "delta_same_version_no_update": 0.0
+            },
+            {
+              "version": "iter5",
+              "cohort": "unaffected",
+              "n": 8,
+              "tf": 7.25,
+              "delta_own_early": 1.0,
+              "delta_same_version_no_update": 0.0
+            }
+          ],
+          "costs": {
+            "update": {
+              "calls": 0,
+              "tokens": 0,
+              "request_seconds": 0,
+              "api_usd": 0
+            },
+            "agent": {
+              "calls": 434,
+              "tokens": 3139878,
+              "request_seconds": 4613.736349100005,
+              "api_usd": 0.0
+            },
+            "judge": {
+              "calls": 54,
+              "tokens": 419083,
+              "request_seconds": 907.6614735999992,
+              "api_usd": 0.0
+            }
+          }
+        },
+        {
+          "strategy": "full_rewrite",
+          "ecs": 5.483517794243001,
+          "stages": {
+            "original": {
+              "n": 18,
+              "tf": 6.444444444444445,
+              "pe": 6.833333333333333
+            },
+            "iter3": {
+              "n": 18,
+              "tf": 6.333333333333333,
+              "pe": 6.944444444444445
+            },
+            "iter5": {
+              "n": 18,
+              "tf": 7.944444444444445,
+              "pe": 8.555555555555555
+            }
+          },
+          "cohorts": [
+            {
+              "version": "iter3",
+              "cohort": "changed",
+              "n": 9,
+              "tf": 6.0,
+              "delta_own_early": -1.2222222222222223,
+              "delta_same_version_no_update": -1.2222222222222223
+            },
+            {
+              "version": "iter3",
+              "cohort": "unaffected",
+              "n": 9,
+              "tf": 6.666666666666667,
+              "delta_own_early": 1.0,
+              "delta_same_version_no_update": 2.6666666666666665
+            },
+            {
+              "version": "iter5",
+              "cohort": "changed",
+              "n": 10,
+              "tf": 8.4,
+              "delta_own_early": 0.9,
+              "delta_same_version_no_update": 0.2
+            },
+            {
+              "version": "iter5",
+              "cohort": "unaffected",
+              "n": 8,
+              "tf": 7.375,
+              "delta_own_early": 2.25,
+              "delta_same_version_no_update": 0.125
+            }
+          ],
+          "costs": {
+            "update": {
+              "calls": 36,
+              "tokens": 104472,
+              "request_seconds": 272.76106299999947,
+              "api_usd": 0.0
+            },
+            "agent": {
+              "calls": 410,
+              "tokens": 2861030,
+              "request_seconds": 3657.5631449999837,
+              "api_usd": 0.0
+            },
+            "judge": {
+              "calls": 54,
+              "tokens": 414578,
+              "request_seconds": 926.1803889000021,
+              "api_usd": 0.0
+            }
+          }
+        },
+        {
+          "strategy": "selective_patch",
+          "ecs": 5.254833837860465,
+          "stages": {
+            "original": {
+              "n": 18,
+              "tf": 7.0,
+              "pe": 8.055555555555555
+            },
+            "iter3": {
+              "n": 18,
+              "tf": 6.777777777777778,
+              "pe": 6.944444444444445
+            },
+            "iter5": {
+              "n": 18,
+              "tf": 6.166666666666667,
+              "pe": 6.944444444444445
+            }
+          },
+          "cohorts": [
+            {
+              "version": "iter3",
+              "cohort": "changed",
+              "n": 9,
+              "tf": 6.444444444444445,
+              "delta_own_early": -0.2222222222222222,
+              "delta_same_version_no_update": -0.7777777777777778
+            },
+            {
+              "version": "iter3",
+              "cohort": "unaffected",
+              "n": 9,
+              "tf": 7.111111111111111,
+              "delta_own_early": -0.2222222222222222,
+              "delta_same_version_no_update": 3.111111111111111
+            },
+            {
+              "version": "iter5",
+              "cohort": "changed",
+              "n": 10,
+              "tf": 6.7,
+              "delta_own_early": -0.3,
+              "delta_same_version_no_update": -1.5
+            },
+            {
+              "version": "iter5",
+              "cohort": "unaffected",
+              "n": 8,
+              "tf": 5.5,
+              "delta_own_early": -1.5,
+              "delta_same_version_no_update": -1.75
+            }
+          ],
+          "costs": {
+            "update": {
+              "calls": 19,
+              "tokens": 36449,
+              "request_seconds": 100.98774849999859,
+              "api_usd": 0.0
+            },
+            "agent": {
+              "calls": 422,
+              "tokens": 3116285,
+              "request_seconds": 3493.9072123000096,
+              "api_usd": 0.0
+            },
+            "judge": {
+              "calls": 54,
+              "tokens": 403499,
+              "request_seconds": 889.9863553999894,
+              "api_usd": 0.0
+            }
+          }
+        }
+      ],
+      "source_manifest_sha256": "579c60853c83400a015b35ac6ba68fbe97a0f1ebba1427403ace27ffd8381cb2"
+    },
+    {
+      "name": "final-r3",
+      "collected_at": "2026-10-30T16:49:44+08:00",
+      "status": {
+        "name": "final-r3",
+        "expected": 162,
+        "found": 162,
+        "scored": 162,
+        "failures": 5,
+        "missing": 0,
+        "issues": [],
+        "status_counts": {
+          "evaluated": 162
+        },
+        "complete": true
+      },
+      "strategies": [
+        {
+          "strategy": "no_update",
+          "ecs": 4.928679107544627,
+          "stages": {
+            "original": {
+              "n": 18,
+              "tf": 6.055555555555555,
+              "pe": 6.944444444444445
+            },
+            "iter3": {
+              "n": 18,
+              "tf": 7.5,
+              "pe": 7.222222222222222
+            },
+            "iter5": {
+              "n": 18,
+              "tf": 6.777777777777778,
+              "pe": 6.611111111111111
+            }
+          },
+          "cohorts": [
+            {
+              "version": "iter3",
+              "cohort": "changed",
+              "n": 9,
+              "tf": 8.333333333333334,
+              "delta_own_early": 2.2222222222222223,
+              "delta_same_version_no_update": 0.0
+            },
+            {
+              "version": "iter3",
+              "cohort": "unaffected",
+              "n": 9,
+              "tf": 6.666666666666667,
+              "delta_own_early": 0.6666666666666666,
+              "delta_same_version_no_update": 0.0
+            },
+            {
+              "version": "iter5",
+              "cohort": "changed",
+              "n": 10,
+              "tf": 7.3,
+              "delta_own_early": 0.8,
+              "delta_same_version_no_update": 0.0
+            },
+            {
+              "version": "iter5",
+              "cohort": "unaffected",
+              "n": 8,
+              "tf": 6.125,
+              "delta_own_early": 0.625,
+              "delta_same_version_no_update": 0.0
+            }
+          ],
+          "costs": {
+            "update": {
+              "calls": 0,
+              "tokens": 0,
+              "request_seconds": 0,
+              "api_usd": 0
+            },
+            "agent": {
+              "calls": 425,
+              "tokens": 2985646,
+              "request_seconds": 5416.086188099893,
+              "api_usd": 0.0
+            },
+            "judge": {
+              "calls": 54,
+              "tokens": 416731,
+              "request_seconds": 1622.1893542999605,
+              "api_usd": 0.0
+            }
+          }
+        },
+        {
+          "strategy": "full_rewrite",
+          "ecs": 5.339748750522908,
+          "stages": {
+            "original": {
+              "n": 18,
+              "tf": 6.888888888888889,
+              "pe": 7.277777777777778
+            },
+            "iter3": {
+              "n": 18,
+              "tf": 6.611111111111111,
+              "pe": 7.111111111111111
+            },
+            "iter5": {
+              "n": 18,
+              "tf": 7.555555555555555,
+              "pe": 8.0
+            }
+          },
+          "cohorts": [
+            {
+              "version": "iter3",
+              "cohort": "changed",
+              "n": 9,
+              "tf": 8.222222222222221,
+              "delta_own_early": 0.2222222222222222,
+              "delta_same_version_no_update": -0.1111111111111111
+            },
+            {
+              "version": "iter3",
+              "cohort": "unaffected",
+              "n": 9,
+              "tf": 5.0,
+              "delta_own_early": -0.7777777777777778,
+              "delta_same_version_no_update": -1.6666666666666667
+            },
+            {
+              "version": "iter5",
+              "cohort": "changed",
+              "n": 10,
+              "tf": 7.4,
+              "delta_own_early": -0.8,
+              "delta_same_version_no_update": 0.1
+            },
+            {
+              "version": "iter5",
+              "cohort": "unaffected",
+              "n": 8,
+              "tf": 7.75,
+              "delta_own_early": 2.5,
+              "delta_same_version_no_update": 1.625
+            }
+          ],
+          "costs": {
+            "update": {
+              "calls": 36,
+              "tokens": 104426,
+              "request_seconds": 300.75754569996934,
+              "api_usd": 0.0
+            },
+            "agent": {
+              "calls": 401,
+              "tokens": 2656393,
+              "request_seconds": 4182.157361599966,
+              "api_usd": 0.0
+            },
+            "judge": {
+              "calls": 54,
+              "tokens": 397538,
+              "request_seconds": 1570.8247904999953,
+              "api_usd": 0.0
+            }
+          }
+        },
+        {
+          "strategy": "selective_patch",
+          "ecs": 6.152443202372131,
+          "stages": {
+            "original": {
+              "n": 18,
+              "tf": 7.722222222222222,
+              "pe": 7.222222222222222
+            },
+            "iter3": {
+              "n": 18,
+              "tf": 7.055555555555555,
+              "pe": 7.388888888888889
+            },
+            "iter5": {
+              "n": 18,
+              "tf": 6.555555555555555,
+              "pe": 7.166666666666667
+            }
+          },
+          "cohorts": [
+            {
+              "version": "iter3",
+              "cohort": "changed",
+              "n": 9,
+              "tf": 8.0,
+              "delta_own_early": -0.6666666666666666,
+              "delta_same_version_no_update": -0.3333333333333333
+            },
+            {
+              "version": "iter3",
+              "cohort": "unaffected",
+              "n": 9,
+              "tf": 6.111111111111111,
+              "delta_own_early": -0.6666666666666666,
+              "delta_same_version_no_update": -0.5555555555555556
+            },
+            {
+              "version": "iter5",
+              "cohort": "changed",
+              "n": 10,
+              "tf": 7.4,
+              "delta_own_early": -1.4,
+              "delta_same_version_no_update": 0.1
+            },
+            {
+              "version": "iter5",
+              "cohort": "unaffected",
+              "n": 8,
+              "tf": 5.5,
+              "delta_own_early": -0.875,
+              "delta_same_version_no_update": -0.625
+            }
+          ],
+          "costs": {
+            "update": {
+              "calls": 19,
+              "tokens": 36449,
+              "request_seconds": 112.16953459999786,
+              "api_usd": 0.0
+            },
+            "agent": {
+              "calls": 405,
+              "tokens": 2846206,
+              "request_seconds": 3432.7050796000476,
+              "api_usd": 0.0
+            },
+            "judge": {
+              "calls": 54,
+              "tokens": 385204,
+              "request_seconds": 1521.6224087999872,
+              "api_usd": 0.0
+            }
+          }
+        }
+      ],
+      "source_manifest_sha256": "579c60853c83400a015b35ac6ba68fbe97a0f1ebba1427403ace27ffd8381cb2"
+    }
+  ],
+  "total_records": 486,
+  "strategies": [
+    {
+      "strategy": "no_update",
+      "ecs_mean": 5.498112989347192,
+      "ecs_sample_sd": 0.7005156231861515,
+      "stages": {
+        "original": {
+          "tf": 6.685185185185185,
+          "pe": 6.962962962962963,
+          "task_count": 18,
+          "observations": 54,
+          "tf_round_sample_sd": 0.5701779377163206,
+          "pe_round_sample_sd": 0.41697519441473
+        },
+        "iter3": {
+          "tf": 6.796296296296296,
+          "pe": 7.203703703703703,
+          "task_count": 18,
+          "observations": 54,
+          "tf_round_sample_sd": 1.03239702701973,
+          "pe_round_sample_sd": 0.13981174880131014
+        },
+        "iter5": {
+          "tf": 7.333333333333333,
+          "pe": 7.407407407407407,
+          "task_count": 18,
+          "observations": 54,
+          "tf_round_sample_sd": 0.5091750772173156,
+          "pe_round_sample_sd": 0.6946296049448542
+        }
+      },
+      "costs": {
+        "update": {
+          "calls": 0,
+          "tokens": 0,
+          "request_seconds": 0,
+          "api_usd": 0
+        },
+        "agent": {
+          "calls": 1285,
+          "tokens": 9133062,
+          "request_seconds": 37234.02137189989,
+          "api_usd": 0.0
+        },
+        "judge": {
+          "calls": 162,
+          "tokens": 1242483,
+          "request_seconds": 4203.260146399962,
+          "api_usd": 0.0
+        }
+      },
+      "cohorts": [
+        {
+          "version": "iter3",
+          "cohort": "changed",
+          "n": 27,
+          "tf": 7.481481481481482,
+          "delta_own_early": 0.5925925925925927,
+          "delta_same_version_no_update": 0.0
+        },
+        {
+          "version": "iter3",
+          "cohort": "unaffected",
+          "n": 27,
+          "tf": 6.111111111111112,
+          "delta_own_early": -0.37037037037037035,
+          "delta_same_version_no_update": 0.0
+        },
+        {
+          "version": "iter5",
+          "cohort": "changed",
+          "n": 30,
+          "tf": 7.666666666666666,
+          "delta_own_early": 0.4666666666666667,
+          "delta_same_version_no_update": 0.0
+        },
+        {
+          "version": "iter5",
+          "cohort": "unaffected",
+          "n": 24,
+          "tf": 6.916666666666667,
+          "delta_own_early": 0.875,
+          "delta_same_version_no_update": 0.0
+        }
+      ]
+    },
+    {
+      "strategy": "full_rewrite",
+      "ecs_mean": 5.354098373398984,
+      "ecs_sample_sd": 0.12287464460308535,
+      "stages": {
+        "original": {
+          "tf": 6.537037037037037,
+          "pe": 7.203703703703703,
+          "task_count": 18,
+          "observations": 54,
+          "tf_round_sample_sd": 0.31590226128207394,
+          "pe_round_sample_sd": 0.3394500514782105
+        },
+        "iter3": {
+          "tf": 6.666666666666666,
+          "pe": 7.296296296296296,
+          "task_count": 18,
+          "observations": 54,
+          "tf_round_sample_sd": 0.3643021402390001,
+          "pe_round_sample_sd": 0.4724944748952989
+        },
+        "iter5": {
+          "tf": 7.407407407407407,
+          "pe": 7.907407407407407,
+          "task_count": 18,
+          "observations": 54,
+          "tf_round_sample_sd": 0.6244339000032357,
+          "pe_round_sample_sd": 0.6990587440065507
+        }
+      },
+      "costs": {
+        "update": {
+          "calls": 108,
+          "tokens": 313370,
+          "request_seconds": 932.8340645999838,
+          "api_usd": 0.0
+        },
+        "agent": {
+          "calls": 1214,
+          "tokens": 8199730,
+          "request_seconds": 19041.92364569995,
+          "api_usd": 0.0
+        },
+        "judge": {
+          "calls": 162,
+          "tokens": 1209904,
+          "request_seconds": 5638.778458200011,
+          "api_usd": 0.0
+        }
+      },
+      "cohorts": [
+        {
+          "version": "iter3",
+          "cohort": "changed",
+          "n": 27,
+          "tf": 7.555555555555555,
+          "delta_own_early": 0.2222222222222222,
+          "delta_same_version_no_update": 0.07407407407407406
+        },
+        {
+          "version": "iter3",
+          "cohort": "unaffected",
+          "n": 27,
+          "tf": 5.777777777777778,
+          "delta_own_early": 0.037037037037037035,
+          "delta_same_version_no_update": -0.3333333333333334
+        },
+        {
+          "version": "iter5",
+          "cohort": "changed",
+          "n": 30,
+          "tf": 7.833333333333334,
+          "delta_own_early": 0.2333333333333333,
+          "delta_same_version_no_update": 0.16666666666666669
+        },
+        {
+          "version": "iter5",
+          "cohort": "unaffected",
+          "n": 24,
+          "tf": 6.875,
+          "delta_own_early": 1.6666666666666667,
+          "delta_same_version_no_update": -0.041666666666666664
+        }
+      ]
+    },
+    {
+      "strategy": "selective_patch",
+      "ecs_mean": 5.91325612150723,
+      "ecs_sample_sd": 0.5772731236195064,
+      "stages": {
+        "original": {
+          "tf": 7.277777777777778,
+          "pe": 7.537037037037037,
+          "task_count": 18,
+          "observations": 54,
+          "tf_round_sample_sd": 0.388888888888889,
+          "pe_round_sample_sd": 0.4524737675137264
+        },
+        "iter3": {
+          "tf": 7.148148148148148,
+          "pe": 7.314814814814815,
+          "task_count": 18,
+          "observations": 54,
+          "tf_round_sample_sd": 0.4243125643477628,
+          "pe_round_sample_sd": 0.3394500514782101
+        },
+        "iter5": {
+          "tf": 6.62962962962963,
+          "pe": 7.166666666666667,
+          "task_count": 18,
+          "observations": 54,
+          "tf_round_sample_sd": 0.5040984292154148,
+          "pe_round_sample_sd": 0.22222222222222232
+        }
+      },
+      "costs": {
+        "update": {
+          "calls": 57,
+          "tokens": 109347,
+          "request_seconds": 336.240446699994,
+          "api_usd": 0.0
+        },
+        "agent": {
+          "calls": 1232,
+          "tokens": 8948412,
+          "request_seconds": 12700.069418200079,
+          "api_usd": 0.0
+        },
+        "judge": {
+          "calls": 162,
+          "tokens": 1197677,
+          "request_seconds": 6588.856031599997,
+          "api_usd": 0.0
+        }
+      },
+      "cohorts": [
+        {
+          "version": "iter3",
+          "cohort": "changed",
+          "n": 27,
+          "tf": 7.444444444444445,
+          "delta_own_early": 0.11111111111111116,
+          "delta_same_version_no_update": -0.037037037037037035
+        },
+        {
+          "version": "iter3",
+          "cohort": "unaffected",
+          "n": 27,
+          "tf": 6.851851851851851,
+          "delta_own_early": -0.37037037037037035,
+          "delta_same_version_no_update": 0.7407407407407407
+        },
+        {
+          "version": "iter5",
+          "cohort": "changed",
+          "n": 30,
+          "tf": 7.133333333333334,
+          "delta_own_early": -0.3333333333333333,
+          "delta_same_version_no_update": -0.5333333333333333
+        },
+        {
+          "version": "iter5",
+          "cohort": "unaffected",
+          "n": 24,
+          "tf": 6.0,
+          "delta_own_early": -1.0416666666666667,
+          "delta_same_version_no_update": -0.9166666666666666
+        }
+      ]
+    }
+  ],
+  "limits": "Same fixed seed/temperature repeats; n=18 distinct tasks, not independent new tasks. SD is across round means. No significance or universal superiority claims. Original one-run ablation is excluded.",
+  "additional_interrupted_attempt_overhead": {
+    "checked_at": "2026-10-30T16:49:44+08:00",
+    "passed": true,
+    "preserved_completed_records": 156,
+    "completed_episodes_retried": 0,
+    "uncommitted_episode_restarted": 1,
+    "partial_returned_calls": 7,
+    "partial_recorded_tokens": 75652,
+    "partial_request_seconds": 295.61425659999986,
+    "cost_scope": "Additional interrupted-attempt overhead; excluded from completed-grid totals; unreturned usage unknown."
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "source": "artifacts/rerun-r2-20261030/corrected-three-round-comparison.json",
+  "rounds": [
+    "final-v1",
+    "final-r2",
+    "final-r3"
+  ],
+  "distinct_tasks": 18,
+  "observations_per_policy_version": 54,
+  "values": [
+    {
+      "policy": "no_update",
+      "metric": "tf",
+      "means": [
+        6.685185185185185,
+        6.796296296296296,
+        7.333333333333333
+      ],
+      "round_mean_sample_sd": [
+        0.5701779377163206,
+        1.03239702701973,
+        0.5091750772173156
+      ]
+    },
+    {
+      "policy": "full_rewrite",
+      "metric": "tf",
+      "means": [
+        6.537037037037037,
+        6.666666666666666,
+        7.407407407407407
+      ],
+      "round_mean_sample_sd": [
+        0.31590226128207394,
+        0.3643021402390001,
+        0.6244339000032357
+      ]
+    },
+    {
+      "policy": "selective_patch",
+      "metric": "tf",
+      "means": [
+        7.277777777777778,
+        7.148148148148148,
+        6.62962962962963
+      ],
+      "round_mean_sample_sd": [
+        0.388888888888889,
+        0.4243125643477628,
+        0.5040984292154148
+      ]
+    },
+    {
+      "policy": "no_update",
+      "metric": "pe",
+      "means": [
+        6.962962962962963,
+        7.203703703703703,
+        7.407407407407407
+      ],
+      "round_mean_sample_sd": [
+        0.41697519441473,
+        0.13981174880131014,
+        0.6946296049448542
+      ]
+    },
+    {
+      "policy": "full_rewrite",
+      "metric": "pe",
+      "means": [
+        7.203703703703703,
+        7.296296296296296,
+        7.907407407407407
+      ],
+      "round_mean_sample_sd": [
+        0.3394500514782105,
+        0.4724944748952989,
+        0.6990587440065507
+      ]
+    },
+    {
+      "policy": "selective_patch",
+      "metric": "pe",
+      "means": [
+        7.537037037037037,
+        7.314814814814815,
+        7.166666666666667
+      ],
+      "round_mean_sample_sd": [
+        0.4524737675137264,
+        0.3394500514782101,
+        0.22222222222222232
+      ]
+    }
+  ],
+  "error_definition": "Sample standard deviation of three round means; not confidence intervals."
+}
