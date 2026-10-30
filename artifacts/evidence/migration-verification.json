@@ -1,0 +1,59 @@
+{
+  "verified_at": "2026-10-29T17:39:24.564688+08:00",
+  "destination_repository": "https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation",
+  "mirror_release": "https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/releases/tag/project-evidence-20261029",
+  "source_repository": "https://github.com/lingenxin3-sketch/pe6203-tool-harness-adaptation",
+  "all_passed": true,
+  "anonymous_downloads": [
+    {
+      "filename": "EVIDENCE_PROVENANCE.json",
+      "public_asset_url": "https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/releases/download/project-evidence-20261029/EVIDENCE_PROVENANCE.json",
+      "bytes": 3620,
+      "sha256": "429c3d6bc63c461f57a84f65afb30d219a012d6135223d6de96ff15bc6e560c2",
+      "anonymous_download_verified": true,
+      "matches_prepared_copy": true
+    },
+    {
+      "filename": "final-r3-evidence.zip",
+      "public_asset_url": "https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/releases/download/project-evidence-20261029/final-r3-evidence.zip",
+      "bytes": 29825930,
+      "sha256": "402d9a8005bc5848890fc60919dac4eef531ccf2a96a750e6b5c67f920f34c8c",
+      "anonymous_download_verified": true,
+      "zip_crc_passed": true,
+      "manifest_entries_verified": 909,
+      "matches_prepared_copy": true,
+      "matches_original_source_release": true
+    },
+    {
+      "filename": "PE6203_Project4_Submission.zip",
+      "public_asset_url": "https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/releases/download/project-evidence-20261029/PE6203_Project4_Submission.zip",
+      "bytes": 33217470,
+      "sha256": "f0df5bdecbfc840cfd8b58555733ad5a4bfe99ad742fdedbd6b1f500dbc19fad",
+      "anonymous_download_verified": true,
+      "zip_crc_passed": true,
+      "manifest_entries_verified": 1025,
+      "matches_prepared_copy": true,
+      "matches_original_source_release": true
+    },
+    {
+      "filename": "repeat-r2-20261029-evidence.zip",
+      "public_asset_url": "https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/releases/download/project-evidence-20261029/repeat-r2-20261029-evidence.zip",
+      "bytes": 29696677,
+      "sha256": "9c2c963d0b8fa02267a87034a398672442a10424f22dae81a4298587f137fceb",
+      "anonymous_download_verified": true,
+      "zip_crc_passed": true,
+      "manifest_entries_verified": 867,
+      "matches_prepared_copy": true,
+      "matches_original_source_release": true
+    },
+    {
+      "filename": "SHA256SUMS.txt",
+      "public_asset_url": "https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/releases/download/project-evidence-20261029/SHA256SUMS.txt",
+      "bytes": 283,
+      "sha256": "439e5c65ae0e1b1bbff7f214485ec1e6bef43c4c76e21d199e7ce961de955836",
+      "anonymous_download_verified": true,
+      "matches_prepared_copy": true
+    }
+  ],
+  "scope": "Historical archive migration only; current corrected round is verified separately."
+}
