@@ -11,8 +11,6 @@
   "reason": "Initial resource-list incompatibility; replacement predeclared before execution.",
   "comparison": "artifacts/rerun-r2-20261030/corrected-three-round-comparison.json",
   "all_validation_gates_passed": true,
-  "github_updated": false,
-  "report_refresh_completed": true,
-  "member_packages_prepared": true,
-  "presentation_refresh_required": true
+  "scope": "Active experiment selection and validation only. The updated_at timestamp records selection finalization, not repository publication or presentation delivery.",
+  "evidence_index": "docs/EVIDENCE.md"
 }

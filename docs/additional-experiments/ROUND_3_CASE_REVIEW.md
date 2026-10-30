@@ -2,7 +2,7 @@
 
 Source: `runs/final-r3`. All 162 observations are executed, scored, and archived. Review covers 27 task 28/113/117 traces and all five execution exceptions. Pre-score execution observations are compared with original scores below. This is AI-assisted evidence review, not independent human annotation; no original score changes.
 
-Final audits find all 162 resource lists match R1, with matching 54 cross-policy fairness groups within each round. All 54 R2 groups differ and remain separate. See [final input audit](../../artifacts/repeats-20261029/r3-input-compatibility-final-execution.json), [fairness audit](../../artifacts/repeats-20261029/within-round-input-fairness-final.json), and [final results](FINAL_RESULTS.md). Earlier 12-group checks are intermediate snapshots only.
+Final audits find all 162 resource lists match R1, with matching 54 cross-policy fairness groups within each round. The 54 cross-policy groups in the superseded R2 run (`repeat-r2-20261029`) differed and that run remains excluded. The replacement R2 (`final-r2`) passed its input checks and is included with R1 and R3 in the current 486-observation comparison. See [final input audit](../../artifacts/repeats-20261029/r3-input-compatibility-final-execution.json), [fairness audit](../../artifacts/repeats-20261029/within-round-input-fairness-final.json), and [final results](FINAL_RESULTS.md). Earlier 12-group checks are intermediate snapshots only.
 
 ## Task 28: saved tasks and evidence-supported contents
 
@@ -50,7 +50,7 @@ No update/Middle omits splitDetails once, reads the error, then saves five tasks
 
 No update/Late omits splitDetails/priority/tags initially; six later attempts add splitDetails only. All seven planning calls fail. An empty project store exists, but no root plan is registered: JSON existence alone is not successful task storage.
 
-Both updating policies/Late pass all five required fields and save plans; selective patch also passes estimatedDeadline. All stored plan tasks have done=false and approved=false; the four alternate project tasks remain pending. Outputs are plan JSON, with no evidence of dashboard implementation, testing, or human approval. Selective patch/Late saves six tasks here, not the five in R1/R2.
+Both updating policies/Late pass all five required fields and save plans; selective patch also passes estimatedDeadline. All stored plan tasks have done=false and approved=false; the four alternate project tasks remain pending. Outputs are plan JSON, with no evidence of dashboard implementation, testing, or human approval. Selective patch/Late saves six tasks in R3. The earlier comparison of five tasks referred to R1 and the superseded R2 (`repeat-r2-20261029`). Corrected R2 (`final-r2`) also saves six tasks; see the [corrected-R2 case review](ROUND_2_CASE_REVIEW.md).
 
 The shared [execution receipt](../../artifacts/repeats-20261029/r3-case-execution-review-receipt.json) covers original bytes, calls, and output hashes for all 27 cases. Do not substitute selected cases for [whole-round metrics](ROUND_3_RESULTS.md).
 

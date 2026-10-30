@@ -64,7 +64,7 @@ For an older pipeline process that stopped at the post-execution completeness ch
 
 ## Evidence and interpretation
 
-The [evidence index](EVIDENCE.md) provides all three frozen archives from this repository, with original source URLs and checksums. Historical immutable commit links in the report remain valid source citations.
+The [evidence index](EVIDENCE.md) links all three active rounds: corrected R2 is stored in this repository, while R1 and R3 are downloaded from releases in the historical mirror repository, `lingenxin3-sketch/pe6203-enterprise-tool-adaptation`. It also identifies the superseded R2 archive and records source URLs and checksums. Original-repository links in historical provenance records identify earlier source versions; the current report and code are in this final submission repository.
 
 Each run manifest records its full configuration, task selection, source hashes and tool-inventory hashes. Episode folders contain knowledge states, update evidence, raw model calls and tool results, and a fresh workspace. Before deferred judging, an immutable `agent-record.json` retains the actor result. Judging appends the rubric result to `result.json`.
 

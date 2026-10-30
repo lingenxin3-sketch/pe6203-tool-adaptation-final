@@ -65,6 +65,17 @@ The table defines responsibility areas. All parts share one repository structure
 
 ## Reproduction and original evidence
 
+This is the final submission repository. Use its report, code and current results as the project entry point. Other repositories linked below provide benchmark sources or historical evidence:
+
+| Repository | Role |
+|---|---|
+| `lingenxin3-sketch/pe6203-tool-adaptation-final` (this repository) | Final integrated code, current report, current result tables and corrected-R2 archive |
+| `lingenxin3-sketch/pe6203-enterprise-tool-adaptation` | Historical evidence mirror hosting the R1/R3 archives and the superseded R2 archive |
+| `lingenxin3-sketch/pe6203-tool-harness-adaptation` | Original development repository and source releases retained for provenance |
+| `Octobrist/MCPEvol-Bench` | External benchmark used by this project |
+
+Historical repository pages and archived reports describe earlier states. For the current analysis, follow the report and results linked above; use historical release links to retrieve the specified evidence files.
+
 The [evidence index](docs/EVIDENCE.md) identifies the active rounds, corrected R2 archive and historical originals. Historical source-commit links remain as provenance.
 
 The actor/updater uses Qwen3-4B-Instruct-2507 Q4_K_M; the judge uses Qwen2.5-7B-Instruct Q4_K_M. Both run locally through llama.cpp b11900 without a paid API. The benchmark is pinned to `888c779a0fe735f612ca62bdd1fdd7c9e6bf8701`. See the reproduction guide for dependencies and commands.

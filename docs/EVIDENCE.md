@@ -2,11 +2,13 @@
 
 The active comparison contains **R1 (`final-v1`), corrected R2 (`final-r2`) and R3 (`final-r3`)**: 486 scored observations on 18 distinct tasks.
 
+This repository is the final project submission. Corrected R2 is stored here. The R1/R3 downloads below are hosted in the historical mirror repository, `lingenxin3-sketch/pe6203-enterprise-tool-adaptation`; its older homepage and reports are not the current submission. Links to `lingenxin3-sketch/pe6203-tool-harness-adaptation` in provenance records identify original source releases. The active results are those linked from this repository's README.
+
 | Evidence | Status | Location |
 | --- | --- | --- |
 | Corrected R2 | Active; 162 scored, 1 execution exception | [Repository ZIP](../artifacts/evidence/final-r2-evidence.zip) |
-| R1 | Active; original bytes | [Published original archive](https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/releases/download/project-evidence-20261029/PE6203_Project4_Submission.zip) |
-| R3 | Active; original bytes | [Published original archive](https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/releases/download/project-evidence-20261029/final-r3-evidence.zip) |
+| R1 | Active; original bytes | [Historical mirror download](https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/releases/download/project-evidence-20261029/PE6203_Project4_Submission.zip) |
+| R3 | Active; original bytes | [Historical mirror download](https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/releases/download/project-evidence-20261029/final-r3-evidence.zip) |
 | Original incompatible R2 | Superseded; excluded from comparison | [Historical archive](https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/releases/download/project-evidence-20261029/repeat-r2-20261029-evidence.zip) |
 
 Corrected-R2 SHA-256: `07423cd3d570e595963c466d315c9a6d5f7c3de334f410450f62ee56dcf0fb23`. Its 1199 manifest entries were checked for bytes and hashes; CRC checks passed. The corrected archive includes raw scores, actor receipts, events, changed outputs, failure originals and the uncommitted interrupted attempt. Restore unchanged fixtures from pinned benchmark sources.

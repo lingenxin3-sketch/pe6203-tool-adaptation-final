@@ -1,4 +1,12 @@
-"""Whitelist-only publication. Refuse other staged work, branch changes or force pushes."""
+"""Historical publisher for the original repeat campaign.
+
+Targets lingenxin3-sketch/pe6203-tool-harness-adaptation, the original source
+repository. Retained for campaign provenance; do not use for member uploads
+or releases in pe6203-tool-adaptation-final. See docs/EVIDENCE.md for the
+current evidence locations.
+
+Whitelist-only publication. Refuse other staged work, branch changes or force pushes.
+"""
 import base64
 import hashlib
 import json

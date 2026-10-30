@@ -1,4 +1,4 @@
-# Round 3: independent results
+# Round 3: results for this round
 
 Collected 2026-10-29T10:52:08+08:00 from `runs/final-r3`. Saved and scored: 162/162. Execution exceptions: 5, all retained.
 
@@ -49,8 +49,8 @@ Selective patch has the highest original automatic ECS in R3 (6.152), which is n
 
 The publication gate passed at 10:55:24 and the controller was observed exiting normally. Anonymous archive verification checked all 909 manifest entries, their sizes, SHA values, and CRCs: 162 results, 162 agent copies, 162 event files, five original failures, and closed phase logs. The original local serialization copy also has the expected raw SHA. See [archive verification](../../artifacts/repeats-20261029/r3-independent-archive-verification.json) and [remote verification](../../artifacts/repeats-20261029/r3-independent-remote-verification.json).
 
-[R3 case review](ROUND_3_CASE_REVIEW.md) compares 27 selected cases and all five exceptions with calls/files. Task 117/selective patch/Early and task 113/no update/Late retain misleading 10/10 scores; task 28/full rewrite/Middle and Late received 1/4 that identified failures. Do not claim all scores are correct or all are invalid. Supplementary analysis is on the branch, not retroactively inserted into the frozen ZIP.
+[R3 case review](ROUND_3_CASE_REVIEW.md) compares 27 selected cases and all five exceptions with calls/files. Task 117/selective patch/Early and task 113/no update/Late retain misleading 10/10 scores; task 28/full rewrite/Middle and Late received 1/4 that identified failures. Do not claim all scores are correct or all are invalid. Supplementary analysis is available in this final repository's documentation and evidence files; the frozen R3 ZIP retains its original contents.
 
-[Frozen R3 evidence release](https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/releases/tag/project-evidence-20261029). ZIP SHA-256: `402d9a8005bc5848890fc60919dac4eef531ccf2a96a750e6b5c67f920f34c8c`.
+[Frozen R3 evidence release in the historical mirror](https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/releases/tag/project-evidence-20261029). ZIP SHA-256: `402d9a8005bc5848890fc60919dac4eef531ccf2a96a750e6b5c67f920f34c8c`.
 
 Fixed seed and temperature=0 repetitions are descriptive, not significance tests. Original task 113/117 judge disagreements remain. File existence does not establish correct contents or implementation. Reviews used AI assistance, not independent human annotation. The latest full report integrates all rounds; old PDF/figures remain historical. The dependency-expansion variant was not repeated. See [task 113](../CASE_113_REVIEW.md), [task 28](../CASE_28_REVIEW.md), and [task 117](../CASE_117_JUDGE_REVIEW.md).
