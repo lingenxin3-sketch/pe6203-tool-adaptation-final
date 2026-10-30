@@ -30,7 +30,7 @@ def inline(text):
     text = re.sub(r'(https?://[^\s<>]+)', r'<link href="\1" color="#17618a">\1</link>', text)
     for i, (label, url) in enumerate(links):
         if not url.startswith(('https://', 'http://')):
-            url = ('https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/blob/main/'
+            url = ('https://github.com/lingenxin3-sketch/pe6203-tool-adaptation-final/blob/main/'
                    + posixpath.normpath('docs/' + url))
         text = text.replace(f'LINKPLACEHOLDER{i}END',
                             f'<link href="{escape(url, quote=True)}" color="#17618a">{escape(label)}</link>')

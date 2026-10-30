@@ -6,7 +6,7 @@ An enterprise AI agent can fail when a tool adds a required parameter, changes i
 
 ## Assembly status
 
-Parts E (LIN GENXIN) and F (PAN JUNKUN) have been imported in this local integration. Parts A, B, C and D remain pending. Runtime code, configuration, complete metrics and corrected raw evidence are not yet present; links to those modules will resolve after their imports. The reports and dated receipts describe the prepared experiment package and do not certify that this partial checkout is runnable.
+Parts B (LIU ZHEYUAN), E (LIN GENXIN) and F (PAN JUNKUN) are included in this integration. Parts A, C and D remain pending. The agent execution code, frozen experiment configuration, complete metrics and corrected raw evidence will arrive with those modules; related links become available after their imports. The reports and dated receipts describe the prepared experiment package and do not certify that this partial checkout is runnable.
 
 ## Reports and results
 
