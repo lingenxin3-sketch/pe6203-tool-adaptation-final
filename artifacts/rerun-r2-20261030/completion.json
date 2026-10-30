@@ -1,0 +1,32 @@
+{
+  "updated_at": "2026-10-30T16:49:45+08:00",
+  "rounds": [
+    "runs/final-v1",
+    "runs/final-r2",
+    "runs/final-r3"
+  ],
+  "observations": 486,
+  "distinct_tasks": 18,
+  "superseded_round": "runs/repeat-r2-20261029",
+  "reason": "Initial resource-list incompatibility; replacement predeclared before execution.",
+  "comparison": "artifacts/rerun-r2-20261030/corrected-three-round-comparison.json",
+  "all_validation_gates_passed": true,
+  "github_updated": false,
+  "presentation_and_report_refresh_required": true,
+  "preservation": {
+    "checked_at": "2026-10-30T16:49:45+08:00",
+    "checked_files": 2055,
+    "passed": true
+  },
+  "interruption_preservation": {
+    "checked_at": "2026-10-30T16:49:44+08:00",
+    "passed": true,
+    "preserved_completed_records": 156,
+    "completed_episodes_retried": 0,
+    "uncommitted_episode_restarted": 1,
+    "partial_returned_calls": 7,
+    "partial_recorded_tokens": 75652,
+    "partial_request_seconds": 295.61425659999986,
+    "cost_scope": "Additional interrupted-attempt overhead; excluded from completed-grid totals; unreturned usage unknown."
+  }
+}

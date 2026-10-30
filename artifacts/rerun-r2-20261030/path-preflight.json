@@ -1,0 +1,1146 @@
+{
+  "checked_at": "2026-10-30T12:13:23+08:00",
+  "output": "runs/final-r2",
+  "baseline": "runs/final-v1",
+  "temporary_basename_length": 8,
+  "fixture_files": 29,
+  "checks": [
+    {
+      "episode": "repeat-0/no_update/original/9",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter3/9",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter5/9",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/original/9",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter3/9",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter5/9",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/original/9",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter3/9",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter5/9",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/original/28",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter3/28",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter5/28",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/original/28",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter3/28",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter5/28",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/original/28",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter3/28",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter5/28",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/original/103",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter3/103",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter5/103",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/original/103",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter3/103",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter5/103",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/original/103",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter3/103",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter5/103",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/original/105",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter3/105",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter5/105",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/original/105",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter3/105",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter5/105",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/original/105",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter3/105",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter5/105",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/original/113",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter3/113",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter5/113",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/original/113",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter3/113",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter5/113",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/original/113",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter3/113",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter5/113",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/original/117",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter3/117",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter5/117",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/original/117",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter3/117",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter5/117",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/original/117",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter3/117",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter5/117",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/original/139",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter3/139",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter5/139",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/original/139",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter3/139",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter5/139",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/original/139",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter3/139",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter5/139",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/original/267",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter3/267",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter5/267",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/original/267",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter3/267",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter5/267",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/original/267",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter3/267",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter5/267",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/original/273",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter3/273",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter5/273",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/original/273",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter3/273",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter5/273",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/original/273",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter3/273",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter5/273",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/original/274",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter3/274",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter5/274",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/original/274",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter3/274",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter5/274",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/original/274",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter3/274",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter5/274",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/original/278",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter3/278",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter5/278",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/original/278",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter3/278",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter5/278",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/original/278",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter3/278",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter5/278",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/original/283",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter3/283",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter5/283",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/original/283",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter3/283",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter5/283",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/original/283",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter3/283",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter5/283",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/original/386",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter3/386",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter5/386",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/original/386",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter3/386",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter5/386",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/original/386",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter3/386",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter5/386",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/original/389",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter3/389",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter5/389",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/original/389",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter3/389",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter5/389",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/original/389",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter3/389",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter5/389",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/original/393",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter3/393",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter5/393",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/original/393",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter3/393",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter5/393",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/original/393",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter3/393",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter5/393",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/original/403",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter3/403",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter5/403",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/original/403",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter3/403",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter5/403",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/original/403",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter3/403",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter5/403",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/original/411",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter3/411",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter5/411",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/original/411",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter3/411",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter5/411",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/original/411",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter3/411",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter5/411",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/original/416",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter3/416",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/no_update/iter5/416",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/original/416",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter3/416",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/full_rewrite/iter5/416",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/original/416",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter3/416",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    },
+    {
+      "episode": "repeat-0/selective_patch/iter5/416",
+      "visible": 55,
+      "passed": true,
+      "only_expected": [],
+      "only_actual": []
+    }
+  ],
+  "checked": 162,
+  "passed": true,
+  "limits": "No inference; actual prompt listings are checked again during execution."
+}

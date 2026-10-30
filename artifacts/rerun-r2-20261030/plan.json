@@ -1,0 +1,32 @@
+{
+  "declared_at": "2026-10-30T12:13:41+08:00",
+  "replacement": "runs/final-r2",
+  "supersedes": "runs/repeat-r2-20261029",
+  "archive_sha256": "9c2c963d0b8fa02267a87034a398672442a10424f22dae81a4298587f137fceb",
+  "original_rounds_retained": true,
+  "reason": "Resource listing incompatibility, not score selection.",
+  "baseline_manifest_sha256": "579c60853c83400a015b35ac6ba68fbe97a0f1ebba1427403ace27ffd8381cb2",
+  "config_sha256": "a1474b556f9fd2d5b61e76d8ba0a8a23f0707565f9bf7a0ffab0da3e080f188f",
+  "source_hashes": {
+    "tool_adapt\\__init__.py": "35e468008464c6a42cfffe5d2b977df8474e6d205a5d7925eedad7393f8539ef",
+    "tool_adapt\\__main__.py": "f0df6c0aa2986a28abb610e1f3a857e969149ffbc316e860c441a6ca0a5ecae9",
+    "tool_adapt\\agent.py": "e8d6d17c50604521ad231b9677a4946d8a3561c3454d1153da18ee34f7907ed0",
+    "tool_adapt\\cli.py": "17ba8fdcb6f36702be6969a9e02fbe98034440b30b773928f4d74b851dc339e7",
+    "tool_adapt\\experiment.py": "54a6a4c4018dd102db6ff3ecb847d217df492f52ccaa40b73cc6781215cd90f0",
+    "tool_adapt\\knowledge.py": "62517b6c2114e61e04e428d1d6318c4fe924d9a8933478068c2bd8ff83d3ddcb",
+    "tool_adapt\\llm.py": "677003f96cf9f113b64033fdae2ad054d35d69851dc74eca632d581c51546891",
+    "tool_adapt\\mcp_runtime.py": "4e852ff392cf33eb4fafbfec06f5343539e3451f6da6e3fc8d5f8ccb65465501",
+    "tool_adapt\\official.py": "6ed24af03e1cb635ff00526d21d1923d5c37147f3d3f1292ac0c9cbaeb6a693d",
+    "tool_adapt\\results.py": "62795abfad269928399c5abb06e52ff69c960e0b7e49f2771d95f7ed34694021"
+  },
+  "methods_models_tasks_decoding_and_judge_unchanged": true,
+  "formal_records_expected": 162,
+  "scored_active_total_expected": 486,
+  "comparison_rounds": [
+    "final-v1",
+    "final-r2",
+    "final-r3"
+  ],
+  "publication": "Local only; no GitHub changes.",
+  "completion_rule": "162 scored records, same initial inputs, preserved failures and historical evidence."
+}

@@ -1,0 +1,23 @@
+{
+  "expected": 162,
+  "found": 162,
+  "missing": [],
+  "terminal_execution_failures": [
+    {
+      "key": [
+        0,
+        "full_rewrite",
+        "iter5",
+        389
+      ],
+      "error": "ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)"
+    }
+  ],
+  "status_counts": {
+    "awaiting_judge": 162
+  },
+  "issues": [],
+  "recorded_invariants_pass": true,
+  "complete_and_evaluated": false,
+  "scope": "Protocol, recorded state, model settings, evidence preservation and artifact presence; not semantic task correctness."
+}

@@ -1,0 +1,277 @@
+{
+  "checked_groups": 54,
+  "expected_groups": 54,
+  "differing_groups": 0,
+  "groups": [
+    {
+      "task": 9,
+      "version": "original",
+      "same_across_strategies": true
+    },
+    {
+      "task": 9,
+      "version": "iter3",
+      "same_across_strategies": true
+    },
+    {
+      "task": 9,
+      "version": "iter5",
+      "same_across_strategies": true
+    },
+    {
+      "task": 28,
+      "version": "original",
+      "same_across_strategies": true
+    },
+    {
+      "task": 28,
+      "version": "iter3",
+      "same_across_strategies": true
+    },
+    {
+      "task": 28,
+      "version": "iter5",
+      "same_across_strategies": true
+    },
+    {
+      "task": 103,
+      "version": "original",
+      "same_across_strategies": true
+    },
+    {
+      "task": 103,
+      "version": "iter3",
+      "same_across_strategies": true
+    },
+    {
+      "task": 103,
+      "version": "iter5",
+      "same_across_strategies": true
+    },
+    {
+      "task": 105,
+      "version": "original",
+      "same_across_strategies": true
+    },
+    {
+      "task": 105,
+      "version": "iter3",
+      "same_across_strategies": true
+    },
+    {
+      "task": 105,
+      "version": "iter5",
+      "same_across_strategies": true
+    },
+    {
+      "task": 113,
+      "version": "original",
+      "same_across_strategies": true
+    },
+    {
+      "task": 113,
+      "version": "iter3",
+      "same_across_strategies": true
+    },
+    {
+      "task": 113,
+      "version": "iter5",
+      "same_across_strategies": true
+    },
+    {
+      "task": 117,
+      "version": "original",
+      "same_across_strategies": true
+    },
+    {
+      "task": 117,
+      "version": "iter3",
+      "same_across_strategies": true
+    },
+    {
+      "task": 117,
+      "version": "iter5",
+      "same_across_strategies": true
+    },
+    {
+      "task": 139,
+      "version": "original",
+      "same_across_strategies": true
+    },
+    {
+      "task": 139,
+      "version": "iter3",
+      "same_across_strategies": true
+    },
+    {
+      "task": 139,
+      "version": "iter5",
+      "same_across_strategies": true
+    },
+    {
+      "task": 267,
+      "version": "original",
+      "same_across_strategies": true
+    },
+    {
+      "task": 267,
+      "version": "iter3",
+      "same_across_strategies": true
+    },
+    {
+      "task": 267,
+      "version": "iter5",
+      "same_across_strategies": true
+    },
+    {
+      "task": 273,
+      "version": "original",
+      "same_across_strategies": true
+    },
+    {
+      "task": 273,
+      "version": "iter3",
+      "same_across_strategies": true
+    },
+    {
+      "task": 273,
+      "version": "iter5",
+      "same_across_strategies": true
+    },
+    {
+      "task": 274,
+      "version": "original",
+      "same_across_strategies": true
+    },
+    {
+      "task": 274,
+      "version": "iter3",
+      "same_across_strategies": true
+    },
+    {
+      "task": 274,
+      "version": "iter5",
+      "same_across_strategies": true
+    },
+    {
+      "task": 278,
+      "version": "original",
+      "same_across_strategies": true
+    },
+    {
+      "task": 278,
+      "version": "iter3",
+      "same_across_strategies": true
+    },
+    {
+      "task": 278,
+      "version": "iter5",
+      "same_across_strategies": true
+    },
+    {
+      "task": 283,
+      "version": "original",
+      "same_across_strategies": true
+    },
+    {
+      "task": 283,
+      "version": "iter3",
+      "same_across_strategies": true
+    },
+    {
+      "task": 283,
+      "version": "iter5",
+      "same_across_strategies": true
+    },
+    {
+      "task": 386,
+      "version": "original",
+      "same_across_strategies": true
+    },
+    {
+      "task": 386,
+      "version": "iter3",
+      "same_across_strategies": true
+    },
+    {
+      "task": 386,
+      "version": "iter5",
+      "same_across_strategies": true
+    },
+    {
+      "task": 389,
+      "version": "original",
+      "same_across_strategies": true
+    },
+    {
+      "task": 389,
+      "version": "iter3",
+      "same_across_strategies": true
+    },
+    {
+      "task": 389,
+      "version": "iter5",
+      "same_across_strategies": true
+    },
+    {
+      "task": 393,
+      "version": "original",
+      "same_across_strategies": true
+    },
+    {
+      "task": 393,
+      "version": "iter3",
+      "same_across_strategies": true
+    },
+    {
+      "task": 393,
+      "version": "iter5",
+      "same_across_strategies": true
+    },
+    {
+      "task": 403,
+      "version": "original",
+      "same_across_strategies": true
+    },
+    {
+      "task": 403,
+      "version": "iter3",
+      "same_across_strategies": true
+    },
+    {
+      "task": 403,
+      "version": "iter5",
+      "same_across_strategies": true
+    },
+    {
+      "task": 411,
+      "version": "original",
+      "same_across_strategies": true
+    },
+    {
+      "task": 411,
+      "version": "iter3",
+      "same_across_strategies": true
+    },
+    {
+      "task": 411,
+      "version": "iter5",
+      "same_across_strategies": true
+    },
+    {
+      "task": 416,
+      "version": "original",
+      "same_across_strategies": true
+    },
+    {
+      "task": 416,
+      "version": "iter3",
+      "same_across_strategies": true
+    },
+    {
+      "task": 416,
+      "version": "iter5",
+      "same_across_strategies": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-10-30T12:12:57+08:00",
+  "checks": {
+    "config": true,
+    "sources": true,
+    "inventory": true,
+    "upstream": true,
+    "first_and_third_compatible": true,
+    "first_complete": true,
+    "third_complete": true,
+    "dependency:cudart.zip": true,
+    "dependency:iter3_servers.zip": true,
+    "dependency:iter5_servers.zip": true,
+    "dependency:llama.zip": true,
+    "dependency:original_servers.zip": true,
+    "dependency:qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf": true,
+    "dependency:qwen2.5-7b-instruct-q4_k_m-00002-of-00002.gguf": true,
+    "dependency:qwen3-4b-q4.gguf": true,
+    "official_server_sources": true
+  },
+  "passed": true
+}
