@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-10-30T17:12:23+08:00",
+  "rounds": [
+    "final-v1",
+    "final-r2",
+    "final-r3"
+  ],
+  "scored_records": 486,
+  "distinct_tasks": 18,
+  "active_execution_exceptions": 10,
+  "corrected_r2_input_mismatches": 0,
+  "assembly_files": 247,
+  "overlapping_member_paths": 0,
+  "broken_active_relative_links": 0,
+  "historical_files_preserved": 2055,
+  "github_updated": false,
+  "scope": "Prepared package assembly, frozen statistics, input/evidence checks; not semantic task success.",
+  "offline_tests": {
+    "tests_run": 41,
+    "passed": 41,
+    "failed": 0,
+    "new_model_calls": 0,
+    "setup": "Five unchanged pinned upstream dependency files restored in the private assembled test copy."
+  }
+}
