@@ -1,0 +1,84 @@
+{
+  "format": "pe6203-current-evidence-selection-v2",
+  "source_repository": "https://github.com/lingenxin3-sketch/pe6203-tool-harness-adaptation",
+  "destination_repository": "https://github.com/lingenxin3-sketch/pe6203-tool-adaptation-final",
+  "release": "https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/releases/tag/project-evidence-20261029",
+  "provenance": "Byte-for-byte copies of previously published archives, not new executions or new scores.",
+  "scored_records_total": 486,
+  "comparable_records": 486,
+  "distinct_tasks": 18,
+  "comparable_rounds": [
+    "R1",
+    "corrected R2",
+    "R3"
+  ],
+  "excluded_from_comparable_pool": "Superseded repeat-r2-20261029: incompatible inputs.",
+  "artifacts": [
+    {
+      "round": "R1",
+      "run_directory": "final-v1",
+      "scored_records": 162,
+      "execution_exceptions": 4,
+      "filename": "PE6203_Project4_Submission.zip",
+      "bytes": 33217470,
+      "sha256": "f0df5bdecbfc840cfd8b58555733ad5a4bfe99ad742fdedbd6b1f500dbc19fad",
+      "archive_entries": 1027,
+      "manifest_entries_verified": 1025,
+      "source_release": "https://github.com/lingenxin3-sketch/pe6203-tool-harness-adaptation/releases/tag/v1.0.0",
+      "source_asset_url": "https://github.com/lingenxin3-sketch/pe6203-tool-harness-adaptation/releases/download/v1.0.0/PE6203_Project4_Submission.zip",
+      "mirror_release": "https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/releases/tag/project-evidence-20261029",
+      "mirror_asset_url": "https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/releases/download/project-evidence-20261029/PE6203_Project4_Submission.zip",
+      "selection_status": "active"
+    },
+    {
+      "round": "R2",
+      "run_directory": "repeat-r2-20261029",
+      "scored_records": 162,
+      "execution_exceptions": 5,
+      "filename": "repeat-r2-20261029-evidence.zip",
+      "bytes": 29696677,
+      "sha256": "9c2c963d0b8fa02267a87034a398672442a10424f22dae81a4298587f137fceb",
+      "archive_entries": 869,
+      "manifest_entries_verified": 867,
+      "source_release": "https://github.com/lingenxin3-sketch/pe6203-tool-harness-adaptation/releases/tag/repeat-r2-20261029-evidence",
+      "source_asset_url": "https://github.com/lingenxin3-sketch/pe6203-tool-harness-adaptation/releases/download/repeat-r2-20261029-evidence/repeat-r2-20261029-evidence.zip",
+      "mirror_release": "https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/releases/tag/project-evidence-20261029",
+      "mirror_asset_url": "https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/releases/download/project-evidence-20261029/repeat-r2-20261029-evidence.zip",
+      "selection_status": "superseded"
+    },
+    {
+      "round": "R3",
+      "run_directory": "final-r3",
+      "scored_records": 162,
+      "execution_exceptions": 5,
+      "filename": "final-r3-evidence.zip",
+      "bytes": 29825930,
+      "sha256": "402d9a8005bc5848890fc60919dac4eef531ccf2a96a750e6b5c67f920f34c8c",
+      "archive_entries": 911,
+      "manifest_entries_verified": 909,
+      "source_release": "https://github.com/lingenxin3-sketch/pe6203-tool-harness-adaptation/releases/tag/final-r3-evidence",
+      "source_asset_url": "https://github.com/lingenxin3-sketch/pe6203-tool-harness-adaptation/releases/download/final-r3-evidence/final-r3-evidence.zip",
+      "mirror_release": "https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/releases/tag/project-evidence-20261029",
+      "mirror_asset_url": "https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation/releases/download/project-evidence-20261029/final-r3-evidence.zip",
+      "selection_status": "active"
+    }
+  ],
+  "updated_at": "2026-10-30T17:02:09+08:00",
+  "active_run_directories": [
+    "final-v1",
+    "final-r2",
+    "final-r3"
+  ],
+  "corrected_round": {
+    "filename": "final-r2-evidence.zip",
+    "sha256": "07423cd3d570e595963c466d315c9a6d5f7c3de334f410450f62ee56dcf0fb23",
+    "bytes": 32166459,
+    "manifest_entries_verified": 1199,
+    "scored_records": 162,
+    "execution_exceptions": 1,
+    "uncommitted_attempt_restarts": 1,
+    "repository_path": "artifacts/evidence/final-r2-evidence.zip",
+    "publication_status": "Prepared locally for member upload; not yet pushed."
+  },
+  "historical_mirror_repository": "https://github.com/lingenxin3-sketch/pe6203-enterprise-tool-adaptation"
+}
