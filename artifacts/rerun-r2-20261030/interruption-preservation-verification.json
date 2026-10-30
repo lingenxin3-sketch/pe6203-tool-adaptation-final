@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-30T16:49:44+08:00",
+  "passed": true,
+  "preserved_completed_records": 156,
+  "completed_episodes_retried": 0,
+  "uncommitted_episode_restarted": 1,
+  "partial_returned_calls": 7,
+  "partial_recorded_tokens": 75652,
+  "partial_request_seconds": 295.61425659999986,
+  "cost_scope": "Additional interrupted-attempt overhead; excluded from completed-grid totals; unreturned usage unknown."
+}

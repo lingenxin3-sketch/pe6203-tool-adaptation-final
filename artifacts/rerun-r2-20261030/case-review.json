@@ -1,0 +1,418 @@
+{
+  "round": "final-r2",
+  "records": [
+    {
+      "task": 28,
+      "strategy": "no_update",
+      "version": "original",
+      "source": "runs/final-r2/repeat-0/no_update/original/28/result.json",
+      "source_sha256": "13d2528a90236066f1678f1b0ee77b007174e485f245e8540e257aa02c3de214",
+      "tf": 10.0,
+      "pe": 10.0,
+      "model_calls": 5,
+      "flagged_tool_errors": 0,
+      "artifacts": [
+        {
+          "path": "anotation_path/markdown/tasks.md",
+          "exists": true,
+          "sha256": "ca365a8c9c83cae2325705d5188f20a2e34fcd615a14b4385d238314a3beaa7b"
+        },
+        {
+          "path": "sources.json",
+          "exists": true,
+          "sha256": "294a7dcc89f27a2ca48cc051938b12fdf61cb3b02f1feb57414cde3f575a4a5c"
+        }
+      ],
+      "root_plan_tasks": null,
+      "scope": "Saved evidence and automatic scores; no new independent human labels."
+    },
+    {
+      "task": 28,
+      "strategy": "no_update",
+      "version": "iter3",
+      "source": "runs/final-r2/repeat-0/no_update/iter3/28/result.json",
+      "source_sha256": "a965bd8ffcb00a80dd319683d461a51355de4fd913d5fd9dff48a18bb5e4a2fa",
+      "tf": 10.0,
+      "pe": 10.0,
+      "model_calls": 5,
+      "flagged_tool_errors": 0,
+      "artifacts": [
+        {
+          "path": "anotation_path/markdown/tasks.md",
+          "exists": true,
+          "sha256": "74c1657d4f6c09ff2978298fce1d0c569dbec8f44e304de43d8d70ec3fe4ef4d"
+        },
+        {
+          "path": "sources.json",
+          "exists": true,
+          "sha256": "eae6e099cc6a0c1bcb8cc91001a69394e8e4c1230b7772da8830180e48d0f5d7"
+        }
+      ],
+      "root_plan_tasks": null,
+      "scope": "Saved evidence and automatic scores; no new independent human labels."
+    },
+    {
+      "task": 28,
+      "strategy": "no_update",
+      "version": "iter5",
+      "source": "runs/final-r2/repeat-0/no_update/iter5/28/result.json",
+      "source_sha256": "028b6f37fa065f06c5abc31664cef9a338f4cf5e149e9c1ac4969bb1b39aa3e8",
+      "tf": 10.0,
+      "pe": 10.0,
+      "model_calls": 5,
+      "flagged_tool_errors": 0,
+      "artifacts": [
+        {
+          "path": "anotation_path/markdown/tasks.md",
+          "exists": true,
+          "sha256": "848996e9c0e957bdf7c4584ec14fe3c69689ba4e1a651569663ec316ec5f0202"
+        },
+        {
+          "path": "sources.json",
+          "exists": true,
+          "sha256": "f30d554e1aecbed33a39042c8edd6580e51cdf482fa53c6c414a5df65197b629"
+        }
+      ],
+      "root_plan_tasks": null,
+      "scope": "Saved evidence and automatic scores; no new independent human labels."
+    },
+    {
+      "task": 28,
+      "strategy": "full_rewrite",
+      "version": "original",
+      "source": "runs/final-r2/repeat-0/full_rewrite/original/28/result.json",
+      "source_sha256": "0d2a068b8157c84c254bb5387bbc4a10486503337f0e839c59225b65c4e986ef",
+      "tf": 10.0,
+      "pe": 10.0,
+      "model_calls": 5,
+      "flagged_tool_errors": 0,
+      "artifacts": [
+        {
+          "path": "anotation_path/markdown/tasks.md",
+          "exists": true,
+          "sha256": "78245aa9230b46cb037b5ee2f49499e5c1ad9169d00cfb359857a35ac3727501"
+        },
+        {
+          "path": "sources.json",
+          "exists": true,
+          "sha256": "f6b122be67fa94018bdf9d0a23c9233407888ff5ad3132f8f1c2afcd14e32eb9"
+        }
+      ],
+      "root_plan_tasks": null,
+      "scope": "Saved evidence and automatic scores; no new independent human labels."
+    },
+    {
+      "task": 28,
+      "strategy": "full_rewrite",
+      "version": "iter3",
+      "source": "runs/final-r2/repeat-0/full_rewrite/iter3/28/result.json",
+      "source_sha256": "aebe51020a262a477664fde64bd129940530a3dead47f9e4c231c101ff1cf07e",
+      "tf": 7.0,
+      "pe": 4.0,
+      "model_calls": 6,
+      "flagged_tool_errors": 3,
+      "artifacts": [],
+      "root_plan_tasks": null,
+      "scope": "Saved evidence and automatic scores; no new independent human labels."
+    },
+    {
+      "task": 28,
+      "strategy": "full_rewrite",
+      "version": "iter5",
+      "source": "runs/final-r2/repeat-0/full_rewrite/iter5/28/result.json",
+      "source_sha256": "c25ecd840afdb585e45a561fc691f6f758fba9c66df6eafc333ae1a26c2a314a",
+      "tf": 10.0,
+      "pe": 10.0,
+      "model_calls": 5,
+      "flagged_tool_errors": 0,
+      "artifacts": [
+        {
+          "path": "anotation_path/markdown/tasks.md",
+          "exists": true,
+          "sha256": "738b91675c8a8441884dd118172af7a8ac9ebe05e4a75896e3f518247c9c5f3b"
+        },
+        {
+          "path": "sources.json",
+          "exists": true,
+          "sha256": "4ca19aa5183f1c2ceca3c6335b6c3c56c1925e1db73ab7126647a8d78472f053"
+        }
+      ],
+      "root_plan_tasks": null,
+      "scope": "Saved evidence and automatic scores; no new independent human labels."
+    },
+    {
+      "task": 28,
+      "strategy": "selective_patch",
+      "version": "original",
+      "source": "runs/final-r2/repeat-0/selective_patch/original/28/result.json",
+      "source_sha256": "2676d9f54ec766e643556556692a584fe76d38087ff64c0d8079f6ba945ca479",
+      "tf": 10.0,
+      "pe": 10.0,
+      "model_calls": 5,
+      "flagged_tool_errors": 0,
+      "artifacts": [
+        {
+          "path": "anotation_path/markdown/tasks.md",
+          "exists": true,
+          "sha256": "e3fcede6082ff5cd04fab062065c7653a2b2375a34d66afd51116aec07744f5c"
+        },
+        {
+          "path": "sources.json",
+          "exists": true,
+          "sha256": "7cea5c536ba5b25531f8fd4ee98558e0a061b6a8f74de116871cdc2f15e11530"
+        }
+      ],
+      "root_plan_tasks": null,
+      "scope": "Saved evidence and automatic scores; no new independent human labels."
+    },
+    {
+      "task": 28,
+      "strategy": "selective_patch",
+      "version": "iter3",
+      "source": "runs/final-r2/repeat-0/selective_patch/iter3/28/result.json",
+      "source_sha256": "dce689f2aef61ca0102b3158a2a85faf463c78918bf296a0efad12bd37dbd0ba",
+      "tf": 10.0,
+      "pe": 10.0,
+      "model_calls": 5,
+      "flagged_tool_errors": 0,
+      "artifacts": [
+        {
+          "path": "markdown/tasks.md",
+          "exists": true,
+          "sha256": "60bac828e0c511c5470166d88536b8f9cfb4714eb2c8dedefb05c4d3fabe189a"
+        },
+        {
+          "path": "sources.json",
+          "exists": true,
+          "sha256": "965bcf95685a4e87205da09d8d9105d4ec6e9b3daa59cbae17fbcf1df58203ad"
+        }
+      ],
+      "root_plan_tasks": null,
+      "scope": "Saved evidence and automatic scores; no new independent human labels."
+    },
+    {
+      "task": 28,
+      "strategy": "selective_patch",
+      "version": "iter5",
+      "source": "runs/final-r2/repeat-0/selective_patch/iter5/28/result.json",
+      "source_sha256": "1debd26181f06f8a50841d1e2451bedca56037ee15e4327c64030700d89f6337",
+      "tf": 1.0,
+      "pe": 4.0,
+      "model_calls": 5,
+      "flagged_tool_errors": 2,
+      "artifacts": [],
+      "root_plan_tasks": null,
+      "scope": "Saved evidence and automatic scores; no new independent human labels."
+    },
+    {
+      "task": 113,
+      "strategy": "no_update",
+      "version": "original",
+      "source": "runs/final-r2/repeat-0/no_update/original/113/result.json",
+      "source_sha256": "d799e3d04b480953f49559d5fcb9af724f08df75c8a0c881fa1314d67d0e547f",
+      "tf": 10.0,
+      "pe": 10.0,
+      "model_calls": 5,
+      "flagged_tool_errors": 0,
+      "artifacts": [
+        {
+          "path": ".agentic-tools-mcp/tasks/tasks.json",
+          "exists": true,
+          "sha256": "349cde842bb1f451aa1d6250a05b6912453d0bf85c14b948506a1c5b3abb0899"
+        },
+        {
+          "path": "tasks.json",
+          "exists": true,
+          "sha256": "ef685c004a7e8b6031cf9d763a036aa6cbfdabef7815ab25ac721006bc3cc486"
+        }
+      ],
+      "root_plan_tasks": 5,
+      "scope": "Saved evidence and automatic scores; no new independent human labels."
+    },
+    {
+      "task": 113,
+      "strategy": "no_update",
+      "version": "iter3",
+      "source": "runs/final-r2/repeat-0/no_update/iter3/113/result.json",
+      "source_sha256": "db954390ac504bb813a37d9dd8ea8f19d02789920651d632a3740dd5f75ccf36",
+      "tf": 4.0,
+      "pe": 7.0,
+      "model_calls": 6,
+      "flagged_tool_errors": 1,
+      "artifacts": [
+        {
+          "path": ".agentic-tools-mcp/tasks/tasks.json",
+          "exists": true,
+          "sha256": "19b53133c057554b44da5ef25bdc51d2102f013ccdcf981feac4045214156311"
+        },
+        {
+          "path": "tasks.json",
+          "exists": true,
+          "sha256": "b01b5615f79d2966361ee5efe8fb36e1760fc415766ea11bf7a081daf964dfee"
+        }
+      ],
+      "root_plan_tasks": 5,
+      "scope": "Saved evidence and automatic scores; no new independent human labels."
+    },
+    {
+      "task": 113,
+      "strategy": "no_update",
+      "version": "iter5",
+      "source": "runs/final-r2/repeat-0/no_update/iter5/113/result.json",
+      "source_sha256": "4d2482a37722ffafb8365921234fb09dfa8dcf19ec1b8d64666e8c210215723b",
+      "tf": 10.0,
+      "pe": 7.0,
+      "model_calls": 11,
+      "flagged_tool_errors": 6,
+      "artifacts": [
+        {
+          "path": ".agentic-tools-mcp/tasks/tasks.json",
+          "exists": true,
+          "sha256": "c9161cb284c61f44bb1a61df7280aa2dc955697d4168d92a7eba29d3ba119a03"
+        }
+      ],
+      "root_plan_tasks": 0,
+      "scope": "Saved evidence and automatic scores; no new independent human labels."
+    },
+    {
+      "task": 113,
+      "strategy": "full_rewrite",
+      "version": "original",
+      "source": "runs/final-r2/repeat-0/full_rewrite/original/113/result.json",
+      "source_sha256": "c4cc874112ab107d7c36d86ec517c9a332187c2c92588982e9b6d9a5d9f135fb",
+      "tf": 4.0,
+      "pe": 9.0,
+      "model_calls": 5,
+      "flagged_tool_errors": 0,
+      "artifacts": [
+        {
+          "path": ".agentic-tools-mcp/tasks/tasks.json",
+          "exists": true,
+          "sha256": "6481f8ffb0281e6a48a2ca1c534c60ebee8374364f907d55527a4488f36b328c"
+        },
+        {
+          "path": "tasks.json",
+          "exists": true,
+          "sha256": "359bc1d1fd41a08fc012be6c5bc6e2ff46a4fa1ec3685f4a42a99a985874ecec"
+        }
+      ],
+      "root_plan_tasks": 5,
+      "scope": "Saved evidence and automatic scores; no new independent human labels."
+    },
+    {
+      "task": 113,
+      "strategy": "full_rewrite",
+      "version": "iter3",
+      "source": "runs/final-r2/repeat-0/full_rewrite/iter3/113/result.json",
+      "source_sha256": "97cffd26e5112f3935477cb2539619c381ac8ac27bc3e971bd07ef40c91bccd6",
+      "tf": 10.0,
+      "pe": 10.0,
+      "model_calls": 8,
+      "flagged_tool_errors": 0,
+      "artifacts": [
+        {
+          "path": ".agentic-tools-mcp/tasks/tasks.json",
+          "exists": true,
+          "sha256": "d5dd54facece9b75299c2f7f79571aa64016314106d4f067dcd39c4c7945120a"
+        }
+      ],
+      "root_plan_tasks": 0,
+      "scope": "Saved evidence and automatic scores; no new independent human labels."
+    },
+    {
+      "task": 113,
+      "strategy": "full_rewrite",
+      "version": "iter5",
+      "source": "runs/final-r2/repeat-0/full_rewrite/iter5/113/result.json",
+      "source_sha256": "46f0ecee0ab33cc93f7d458d2d2c67d6367a8b9a10425e205e939900e3e0651e",
+      "tf": 7.0,
+      "pe": 10.0,
+      "model_calls": 12,
+      "flagged_tool_errors": 0,
+      "artifacts": [
+        {
+          "path": "tasks.json",
+          "exists": true,
+          "sha256": "8e217e4aaca70ef7214ee8f35906a7a4096466003a14da018b80c07c74fa0ead"
+        }
+      ],
+      "root_plan_tasks": 8,
+      "scope": "Saved evidence and automatic scores; no new independent human labels."
+    },
+    {
+      "task": 113,
+      "strategy": "selective_patch",
+      "version": "original",
+      "source": "runs/final-r2/repeat-0/selective_patch/original/113/result.json",
+      "source_sha256": "58327380211c93e704a58f068c8c83cbe66d84f3a8171b5a10f95e4610599726",
+      "tf": 4.0,
+      "pe": 10.0,
+      "model_calls": 5,
+      "flagged_tool_errors": 0,
+      "artifacts": [
+        {
+          "path": ".agentic-tools-mcp/tasks/tasks.json",
+          "exists": true,
+          "sha256": "dc9407e7ae5d44539aab5c529039f38a24f57c9c01d19ac73bebb1903f461727"
+        },
+        {
+          "path": "tasks.json",
+          "exists": true,
+          "sha256": "ebe55df57f4a957d845232502a61480a1587654e7d8af0052bd0352567efbcfd"
+        }
+      ],
+      "root_plan_tasks": 5,
+      "scope": "Saved evidence and automatic scores; no new independent human labels."
+    },
+    {
+      "task": 113,
+      "strategy": "selective_patch",
+      "version": "iter3",
+      "source": "runs/final-r2/repeat-0/selective_patch/iter3/113/result.json",
+      "source_sha256": "cf22fbd9a46ca5433d60e8ba648aff7137f807539e03d18c7f942b602fd3337c",
+      "tf": 1.0,
+      "pe": 2.0,
+      "model_calls": 5,
+      "flagged_tool_errors": 0,
+      "artifacts": [
+        {
+          "path": ".agentic-tools-mcp/tasks/tasks.json",
+          "exists": true,
+          "sha256": "d2168363511db0e482460c4dc0f9870afacc90ed4f077aea8037a89a5dcb78d9"
+        },
+        {
+          "path": "tasks.json",
+          "exists": true,
+          "sha256": "d46d7d65413adfbedfb31307456b9126631ae46ae3f71b17aa44a17e075ce830"
+        }
+      ],
+      "root_plan_tasks": 5,
+      "scope": "Saved evidence and automatic scores; no new independent human labels."
+    },
+    {
+      "task": 113,
+      "strategy": "selective_patch",
+      "version": "iter5",
+      "source": "runs/final-r2/repeat-0/selective_patch/iter5/113/result.json",
+      "source_sha256": "d6e79c047309d415377c2c35e6eb502f9211aac7e7bfea511315bcb4be172981",
+      "tf": 4.0,
+      "pe": 9.0,
+      "model_calls": 5,
+      "flagged_tool_errors": 0,
+      "artifacts": [
+        {
+          "path": ".agentic-tools-mcp/tasks/tasks.json",
+          "exists": true,
+          "sha256": "a5c378ca344c29c405f8b57066fb049ad4c676415928cf4d314ffbb1142e018c"
+        },
+        {
+          "path": "tasks.json",
+          "exists": true,
+          "sha256": "f7fe97a477c001fde1a07038086e079c0bf21f3787140366d46dc8ed238d08e5"
+        }
+      ],
+      "root_plan_tasks": 6,
+      "scope": "Saved evidence and automatic scores; no new independent human labels."
+    }
+  ]
+}

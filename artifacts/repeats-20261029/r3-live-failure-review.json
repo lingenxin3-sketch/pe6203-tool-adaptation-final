@@ -1,0 +1,59 @@
+{
+  "collected_at": "2026-10-29T07:59:39+08:00",
+  "partial": true,
+  "no_execution_retry": true,
+  "records": [
+    {
+      "path": "runs/final-r3/repeat-0/full_rewrite/iter5/117/result.json",
+      "idx": 117,
+      "strategy": "full_rewrite",
+      "version": "iter5",
+      "error": "ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)",
+      "original_sha256": "c3d375a4b91e38db5888f8624c2d6d522916b847a2551cf108bdf6c62275fd4a",
+      "applied": false,
+      "read_only_reconstruction_verified": true,
+      "recorded_messages": 8,
+      "answer_present": false,
+      "adaptation_status": "ok"
+    },
+    {
+      "path": "runs/final-r3/repeat-0/no_update/iter3/389/result.json",
+      "idx": 389,
+      "strategy": "no_update",
+      "version": "iter3",
+      "error": "ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)",
+      "original_sha256": "73795e904581d1670a86e13e12ee43e2d469396bd9e2ab15c561cc5ab9cbae0a",
+      "applied": false,
+      "read_only_reconstruction_verified": true,
+      "recorded_messages": 6,
+      "answer_present": false,
+      "adaptation_status": "ok"
+    },
+    {
+      "path": "runs/final-r3/repeat-0/selective_patch/original/117/result.json",
+      "idx": 117,
+      "strategy": "selective_patch",
+      "version": "original",
+      "error": "ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)",
+      "original_sha256": "1331d7b8ea8857f54e51bc4fff95a5e4aac002ba47b3130c70e389d27e4fbed1",
+      "applied": false,
+      "read_only_reconstruction_verified": true,
+      "recorded_messages": 8,
+      "answer_present": false,
+      "adaptation_status": "initial"
+    },
+    {
+      "path": "runs/final-r3/repeat-0/selective_patch/original/389/result.json",
+      "idx": 389,
+      "strategy": "selective_patch",
+      "version": "original",
+      "error": "ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)",
+      "original_sha256": "a6ace730c1a2bbd848c9cca95a2f7ae12c116daf38880a6ffe566b5eeccf7829",
+      "applied": false,
+      "read_only_reconstruction_verified": true,
+      "recorded_messages": 6,
+      "answer_present": false,
+      "adaptation_status": "initial"
+    }
+  ]
+}

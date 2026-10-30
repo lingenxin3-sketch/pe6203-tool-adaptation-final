@@ -1,0 +1,16 @@
+[
+  {
+    "idx": 389,
+    "strategy": "full_rewrite",
+    "version": "iter5",
+    "messages": 6,
+    "answer_present": false,
+    "artifact_changes": {
+      "created": [],
+      "deleted": [],
+      "modified": []
+    },
+    "applied": true,
+    "execution_status": "infrastructure_error"
+  }
+]
